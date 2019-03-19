@@ -8,7 +8,7 @@ setup(
     description='MY python package for perfoming recursions and sorting',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/Siphiwe Ngwenya/sortrec',
+    url='https://github.com/Siphiwe-Ngwenya/sortrec.git',
     author='Siphiwe Ngwenya',
     author_email='ngwenya87@gmai.com'
 )

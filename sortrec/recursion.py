@@ -4,7 +4,7 @@ def sum_array(array):
 
 def fibonacci(n):
     """Recursive function that adds the sum of the precceding integers to n"""
-    if n<1:
+    if n<=1:
         return n
     else :
         return fibonacci(n-1)+fibonacci(n-2) #Adding n to the numbers that precedes it in the series
@@ -12,8 +12,8 @@ def fibonacci(n):
 def factorial(n):
     """This is a function that calls itself to perfom
     a mathematical calculation called factorial"""
-    if n <= 1:
-        return n
+    if n <=1:
+        return 1
     else:
         return n * factorial(n-1) #multiplying n by every number the preceeds it
 
